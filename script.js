@@ -1,5 +1,3 @@
-console.log("visible");
-
 function randImg(params) {
 
   let img = document.getElementById("getimg");
