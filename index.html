@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Image Generator</title>
+
+	<meta name="description" content="This is a simple personal website is owned By Afnan ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="user.png">
+	<meta property="url" content="Random-Image-Generator" />
+	<meta property="type" content="website" />
+	<meta property="title" content="image-Generator" />
+	<meta property="description" content="Random image Generator" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto+Slab&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section id="gridcontainer">
+  <div class="col-sm-3">
+ <h1 class="col-sm-3">WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+</div>
+ <div class="centerDiv" class="col-sm-5">
+  <div class="details" class="col-sm-4">
+   <label id="txt">ENTER YOUR NAME</label><br>
+   <input type="text" name="Name" id="nameid" maxlength="25">
+  </div>
+
+  <div class="imgdiv" class="col-sm-4">
+   <img src="Welcome-Image.jpg" width="180" height="140" id = "getimg" class="imgchange">
+  </div>
+
+  <button onclick="randImg()"> Click Here</button>
+ </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
